@@ -1,0 +1,26 @@
+{{> header }}
+
+<div id="contents">
+  <div class="box">
+    <div>
+      <div class="body">
+        <h1>Travel</h1>
+
+        <ul id="sites">
+          {{#each trips}}
+          <li id="{{id}}">
+            <a href="#"><img src="/images/{{image}}" alt="{{alt}}"></a>
+            <h2><a href="#">{{name}}</a></h2>
+            <p>{{summary}}</p>
+            <p>{{details}}</p>
+          </li>
+          {{/each}}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{{> footer }}
+

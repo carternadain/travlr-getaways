@@ -5,9 +5,10 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // // --- Handlebars setup ---
-// app.engine('hbs', exphbs({ extname: 'hbs' })); // define hbs as extension
-// app.set('view engine', 'hbs');
-// app.set('views', path.join(__dirname, 'app_server', 'views')); // point to views folder
+// --- Handlebars setup ---
+app.engine('hbs', exphbs.engine({ extname: '.hbs' }));
+app.set('view engine', 'hbs');
+app.set('views', path.join(__dirname, 'app_server', 'views'));
 
 // --- Static files ---
 app.use(express.static(path.join(__dirname, 'public')));

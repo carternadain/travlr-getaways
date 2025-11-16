@@ -1,0 +1,27 @@
+[
+  {
+    "id": "reef1",
+    "name": "Gale Reef",
+    "image": "reef1.jpg",
+    "alt": "Gale Reef",
+    "summary": "A sheltered coral atoll known for calm blue lagoons and healthy coral gardens. Gale Reef is perfect for snorkelers who want bright fish and easy swimming.",
+    "details": "The lagoon’s protected waters make it an ideal place for beginner snorkelers and underwater photographers. You’ll see schools of parrotfish, angelfish, and patches of soft coral. Evening beach walks and coral-watch sessions provide a restful end to activity-filled days."
+  },
+  {
+    "id": "reef2",
+    "name": "Dawson’s Reef",
+    "image": "reef2.jpg",
+    "alt": "Dawson’s Reef",
+    "summary": "An energetic reef with dramatic drop-offs and strong currents that bring big marine life into view. Dawson’s Reef is a favorite of experienced divers.",
+    "details": "Expect lively wall dives and encounters with pelagic visitors — reef sharks, eagle rays, and larger schools of tuna. The reef’s structure creates caverns and swim-throughs that make every dive feel like exploration. Surface intervals are spent watching seabirds and sampling fresh-caught seafood at local cay huts."
+  },
+  {
+    "id": "reef3",
+    "name": "Claire’s Reef",
+    "image": "reef3.jpg",
+    "alt": "Claire’s Reef",
+    "summary": "A quiet, family-friendly reef with shallow gardens and gentle slopes. Claire’s Reef is the best pick for learners and nature lovers who want relaxed, long swims.",
+    "details": "Shallow coral terraces are teeming with tiny life — nudibranchs, cleaner shrimp, colorful gobies — making it an excellent spot for macro-photography. The nearby sand banks are ideal for picnics and paddling, and local guides offer short ecology walks explaining reef restoration efforts."
+  }
+]
+
